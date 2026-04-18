@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Website Monitor</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <App />
+);
